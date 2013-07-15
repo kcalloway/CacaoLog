@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFB8EA21794BE2700C7F131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB8EA11794BE2700C7F131 /* Foundation.framework */; };
+		DDFB8EA71794BE2700C7F131 /* KCLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDFB8EA61794BE2700C7F131 /* KCLogger.h */; };
+		DDFB8EA91794BE2700C7F131 /* KCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EA81794BE2700C7F131 /* KCLogger.m */; };
+		DDFB8EB11794BE2800C7F131 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB8EB01794BE2800C7F131 /* SenTestingKit.framework */; };
+		DDFB8EB31794BE2800C7F131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB8EB21794BE2800C7F131 /* UIKit.framework */; };
+		DDFB8EB41794BE2800C7F131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB8EA11794BE2700C7F131 /* Foundation.framework */; };
+		DDFB8EB71794BE2800C7F131 /* libKCLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB8E9E1794BE2700C7F131 /* libKCLogger.a */; };
+		DDFB8EBD1794BE2800C7F131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFB8EBB1794BE2800C7F131 /* InfoPlist.strings */; };
+		DDFB8EC01794BE2800C7F131 /* KCLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EBF1794BE2800C7F131 /* KCLoggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFB8EB51794BE2800C7F131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFB8E961794BE2700C7F131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFB8E9D1794BE2700C7F131;
+			remoteInfo = KCLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDFB8E9C1794BE2700C7F131 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				DDFB8EA71794BE2700C7F131 /* KCLogger.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDFB8E9E1794BE2700C7F131 /* libKCLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFB8EA11794BE2700C7F131 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDFB8EA51794BE2700C7F131 /* KCLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLogger-Prefix.pch"; sourceTree = "<group>"; };
+		DDFB8EA61794BE2700C7F131 /* KCLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLogger.h; sourceTree = "<group>"; };
+		DDFB8EA81794BE2700C7F131 /* KCLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLogger.m; sourceTree = "<group>"; };
+		DDFB8EAF1794BE2800C7F131 /* KCLoggerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLoggerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFB8EB01794BE2800C7F131 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDFB8EB21794BE2800C7F131 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDFB8EBA1794BE2800C7F131 /* KCLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KCLoggerTests-Info.plist"; sourceTree = "<group>"; };
+		DDFB8EBC1794BE2800C7F131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDFB8EBE1794BE2800C7F131 /* KCLoggerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLoggerTests.h; sourceTree = "<group>"; };
+		DDFB8EBF1794BE2800C7F131 /* KCLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLoggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFB8E9B1794BE2700C7F131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB8EA21794BE2700C7F131 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB8EAB1794BE2800C7F131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB8EB11794BE2800C7F131 /* SenTestingKit.framework in Frameworks */,
+				DDFB8EB31794BE2800C7F131 /* UIKit.framework in Frameworks */,
+				DDFB8EB41794BE2800C7F131 /* Foundation.framework in Frameworks */,
+				DDFB8EB71794BE2800C7F131 /* libKCLogger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFB8E951794BE2700C7F131 = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EA31794BE2700C7F131 /* KCLogger */,
+				DDFB8EB81794BE2800C7F131 /* KCLoggerTests */,
+				DDFB8EA01794BE2700C7F131 /* Frameworks */,
+				DDFB8E9F1794BE2700C7F131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFB8E9F1794BE2700C7F131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8E9E1794BE2700C7F131 /* libKCLogger.a */,
+				DDFB8EAF1794BE2800C7F131 /* KCLoggerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFB8EA01794BE2700C7F131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EA11794BE2700C7F131 /* Foundation.framework */,
+				DDFB8EB01794BE2800C7F131 /* SenTestingKit.framework */,
+				DDFB8EB21794BE2800C7F131 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDFB8EA31794BE2700C7F131 /* KCLogger */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EA61794BE2700C7F131 /* KCLogger.h */,
+				DDFB8EA81794BE2700C7F131 /* KCLogger.m */,
+				DDFB8EA41794BE2700C7F131 /* Supporting Files */,
+			);
+			path = KCLogger;
+			sourceTree = "<group>";
+		};
+		DDFB8EA41794BE2700C7F131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EA51794BE2700C7F131 /* KCLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFB8EB81794BE2800C7F131 /* KCLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EBE1794BE2800C7F131 /* KCLoggerTests.h */,
+				DDFB8EBF1794BE2800C7F131 /* KCLoggerTests.m */,
+				DDFB8EB91794BE2800C7F131 /* Supporting Files */,
+			);
+			path = KCLoggerTests;
+			sourceTree = "<group>";
+		};
+		DDFB8EB91794BE2800C7F131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EBA1794BE2800C7F131 /* KCLoggerTests-Info.plist */,
+				DDFB8EBB1794BE2800C7F131 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFB8E9D1794BE2700C7F131 /* KCLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFB8EC31794BE2800C7F131 /* Build configuration list for PBXNativeTarget "KCLogger" */;
+			buildPhases = (
+				DDFB8E9A1794BE2700C7F131 /* Sources */,
+				DDFB8E9B1794BE2700C7F131 /* Frameworks */,
+				DDFB8E9C1794BE2700C7F131 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCLogger;
+			productName = KCLogger;
+			productReference = DDFB8E9E1794BE2700C7F131 /* libKCLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DDFB8EAE1794BE2800C7F131 /* KCLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFB8EC61794BE2800C7F131 /* Build configuration list for PBXNativeTarget "KCLoggerTests" */;
+			buildPhases = (
+				DDFB8EAA1794BE2800C7F131 /* Sources */,
+				DDFB8EAB1794BE2800C7F131 /* Frameworks */,
+				DDFB8EAC1794BE2800C7F131 /* Resources */,
+				DDFB8EAD1794BE2800C7F131 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFB8EB61794BE2800C7F131 /* PBXTargetDependency */,
+			);
+			name = KCLoggerTests;
+			productName = KCLoggerTests;
+			productReference = DDFB8EAF1794BE2800C7F131 /* KCLoggerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFB8E961794BE2700C7F131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kevin Calloway";
+			};
+			buildConfigurationList = DDFB8E991794BE2700C7F131 /* Build configuration list for PBXProject "KCLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDFB8E951794BE2700C7F131;
+			productRefGroup = DDFB8E9F1794BE2700C7F131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFB8E9D1794BE2700C7F131 /* KCLogger */,
+				DDFB8EAE1794BE2800C7F131 /* KCLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFB8EAC1794BE2800C7F131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB8EBD1794BE2800C7F131 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDFB8EAD1794BE2800C7F131 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFB8E9A1794BE2700C7F131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB8EA91794BE2700C7F131 /* KCLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB8EAA1794BE2800C7F131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB8EC01794BE2800C7F131 /* KCLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFB8EB61794BE2800C7F131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFB8E9D1794BE2700C7F131 /* KCLogger */;
+			targetProxy = DDFB8EB51794BE2800C7F131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFB8EBB1794BE2800C7F131 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFB8EBC1794BE2800C7F131 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFB8EC11794BE2800C7F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDFB8EC21794BE2800C7F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFB8EC41794BE2800C7F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KCLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLogger/KCLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDFB8EC51794BE2800C7F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KCLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLogger/KCLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDFB8EC71794BE2800C7F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLogger/KCLogger-Prefix.pch";
+				INFOPLIST_FILE = "KCLoggerTests/KCLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DDFB8EC81794BE2800C7F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLogger/KCLogger-Prefix.pch";
+				INFOPLIST_FILE = "KCLoggerTests/KCLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFB8E991794BE2700C7F131 /* Build configuration list for PBXProject "KCLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFB8EC11794BE2800C7F131 /* Debug */,
+				DDFB8EC21794BE2800C7F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFB8EC31794BE2800C7F131 /* Build configuration list for PBXNativeTarget "KCLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFB8EC41794BE2800C7F131 /* Debug */,
+				DDFB8EC51794BE2800C7F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDFB8EC61794BE2800C7F131 /* Build configuration list for PBXNativeTarget "KCLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFB8EC71794BE2800C7F131 /* Debug */,
+				DDFB8EC81794BE2800C7F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFB8E961794BE2700C7F131 /* Project object */;
+}
