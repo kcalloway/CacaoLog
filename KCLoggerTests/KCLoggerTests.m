@@ -67,6 +67,8 @@ SET_DEFAULT_FILE_CONTEXT(kTestContext1)
 {
     [[KCLogger sharedInstance] blacklistContext:kTestContext1];
     KCLogError(@"Should see");
+    KCLogWarn(@"Should See 2");
+
     KCLogVerbose(@"Should Never See");
 }
 
