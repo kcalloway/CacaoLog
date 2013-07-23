@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD9CF4421795D4510044D0B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9CF4411795D4510044D0B0 /* CoreGraphics.framework */; };
+		DDABCDA7179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCDA6179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m */; };
+		DDABCDA8179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCDA6179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m */; };
 		DDFB8EA21794BE2700C7F131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB8EA11794BE2700C7F131 /* Foundation.framework */; };
 		DDFB8EA71794BE2700C7F131 /* KCLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDFB8EA61794BE2700C7F131 /* KCLogger.h */; };
 		DDFB8EA91794BE2700C7F131 /* KCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EA81794BE2700C7F131 /* KCLogger.m */; };
@@ -16,6 +19,13 @@
 		DDFB8EB71794BE2800C7F131 /* libKCLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB8E9E1794BE2700C7F131 /* libKCLogger.a */; };
 		DDFB8EBD1794BE2800C7F131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFB8EBB1794BE2800C7F131 /* InfoPlist.strings */; };
 		DDFB8EC01794BE2800C7F131 /* KCLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EBF1794BE2800C7F131 /* KCLoggerTests.m */; };
+		DDFB90CB1795105100C7F131 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EE41795104600C7F131 /* DDAbstractDatabaseLogger.m */; };
+		DDFB90CC1795105100C7F131 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EE61795104600C7F131 /* DDASLLogger.m */; };
+		DDFB90CD1795105100C7F131 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EE81795104600C7F131 /* DDFileLogger.m */; };
+		DDFB90CE1795105100C7F131 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EEA1795104600C7F131 /* DDLog.m */; };
+		DDFB90CF1795105100C7F131 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EEC1795104600C7F131 /* DDTTYLogger.m */; };
+		DDFB90D01795105100C7F131 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EEF1795104600C7F131 /* ContextFilterLogFormatter.m */; };
+		DDFB90D11795105100C7F131 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8EF11795104600C7F131 /* DispatchQueueLogFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD9CF4411795D4510044D0B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDABCDA5179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCContextBlacklistFilterLogFormatter.h; sourceTree = "<group>"; };
+		DDABCDA6179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCContextBlacklistFilterLogFormatter.m; sourceTree = "<group>"; };
 		DDFB8E9E1794BE2700C7F131 /* libKCLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFB8EA11794BE2700C7F131 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDFB8EA51794BE2700C7F131 /* KCLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLogger-Prefix.pch"; sourceTree = "<group>"; };
@@ -54,6 +67,21 @@
 		DDFB8EBC1794BE2800C7F131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDFB8EBE1794BE2800C7F131 /* KCLoggerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLoggerTests.h; sourceTree = "<group>"; };
 		DDFB8EBF1794BE2800C7F131 /* KCLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLoggerTests.m; sourceTree = "<group>"; };
+		DDFB8EE31795104600C7F131 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		DDFB8EE41795104600C7F131 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		DDFB8EE51795104600C7F131 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		DDFB8EE61795104600C7F131 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		DDFB8EE71795104600C7F131 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		DDFB8EE81795104600C7F131 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		DDFB8EE91795104600C7F131 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		DDFB8EEA1795104600C7F131 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		DDFB8EEB1795104600C7F131 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		DDFB8EEC1795104600C7F131 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		DDFB8EEE1795104600C7F131 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		DDFB8EEF1795104600C7F131 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		DDFB8EF01795104600C7F131 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		DDFB8EF11795104600C7F131 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		DDFB8EF21795104600C7F131 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9CF4421795D4510044D0B0 /* CoreGraphics.framework in Frameworks */,
 				DDFB8EB11794BE2800C7F131 /* SenTestingKit.framework in Frameworks */,
 				DDFB8EB31794BE2800C7F131 /* UIKit.framework in Frameworks */,
 				DDFB8EB41794BE2800C7F131 /* Foundation.framework in Frameworks */,
@@ -79,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDABCDA4179E2B3500245D9A /* LogFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				DDABCDA5179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.h */,
+				DDABCDA6179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m */,
+			);
+			path = LogFormatters;
+			sourceTree = "<group>";
+		};
 		DDFB8E951794BE2700C7F131 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +139,7 @@
 		DDFB8EA01794BE2700C7F131 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD9CF4411795D4510044D0B0 /* CoreGraphics.framework */,
 				DDFB8EA11794BE2700C7F131 /* Foundation.framework */,
 				DDFB8EB01794BE2800C7F131 /* SenTestingKit.framework */,
 				DDFB8EB21794BE2800C7F131 /* UIKit.framework */,
@@ -111,8 +150,10 @@
 		DDFB8EA31794BE2700C7F131 /* KCLogger */ = {
 			isa = PBXGroup;
 			children = (
+				DDFB8EC91795104600C7F131 /* libs */,
 				DDFB8EA61794BE2700C7F131 /* KCLogger.h */,
 				DDFB8EA81794BE2700C7F131 /* KCLogger.m */,
+				DDABCDA4179E2B3500245D9A /* LogFormatters */,
 				DDFB8EA41794BE2700C7F131 /* Supporting Files */,
 			);
 			path = KCLogger;
@@ -143,6 +184,52 @@
 				DDFB8EBB1794BE2800C7F131 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFB8EC91795104600C7F131 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8ECA1795104600C7F131 /* CocoaLumberJack */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		DDFB8ECA1795104600C7F131 /* CocoaLumberJack */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EE21795104600C7F131 /* Lumberjack */,
+			);
+			path = CocoaLumberJack;
+			sourceTree = "<group>";
+		};
+		DDFB8EE21795104600C7F131 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EE31795104600C7F131 /* DDAbstractDatabaseLogger.h */,
+				DDFB8EE41795104600C7F131 /* DDAbstractDatabaseLogger.m */,
+				DDFB8EE51795104600C7F131 /* DDASLLogger.h */,
+				DDFB8EE61795104600C7F131 /* DDASLLogger.m */,
+				DDFB8EE71795104600C7F131 /* DDFileLogger.h */,
+				DDFB8EE81795104600C7F131 /* DDFileLogger.m */,
+				DDFB8EE91795104600C7F131 /* DDLog.h */,
+				DDFB8EEA1795104600C7F131 /* DDLog.m */,
+				DDFB8EEB1795104600C7F131 /* DDTTYLogger.h */,
+				DDFB8EEC1795104600C7F131 /* DDTTYLogger.m */,
+				DDFB8EED1795104600C7F131 /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		DDFB8EED1795104600C7F131 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB8EEE1795104600C7F131 /* ContextFilterLogFormatter.h */,
+				DDFB8EEF1795104600C7F131 /* ContextFilterLogFormatter.m */,
+				DDFB8EF01795104600C7F131 /* DispatchQueueLogFormatter.h */,
+				DDFB8EF11795104600C7F131 /* DispatchQueueLogFormatter.m */,
+				DDFB8EF21795104600C7F131 /* README.txt */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +286,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = DDFB8E951794BE2700C7F131;
 			productRefGroup = DDFB8E9F1794BE2700C7F131 /* Products */;
@@ -244,6 +332,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFB8EA91794BE2700C7F131 /* KCLogger.m in Sources */,
+				DDFB90CB1795105100C7F131 /* DDAbstractDatabaseLogger.m in Sources */,
+				DDFB90CC1795105100C7F131 /* DDASLLogger.m in Sources */,
+				DDFB90CD1795105100C7F131 /* DDFileLogger.m in Sources */,
+				DDFB90CE1795105100C7F131 /* DDLog.m in Sources */,
+				DDFB90CF1795105100C7F131 /* DDTTYLogger.m in Sources */,
+				DDFB90D01795105100C7F131 /* ContextFilterLogFormatter.m in Sources */,
+				DDFB90D11795105100C7F131 /* DispatchQueueLogFormatter.m in Sources */,
+				DDABCDA7179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFB8EC01794BE2800C7F131 /* KCLoggerTests.m in Sources */,
+				DDABCDA8179E2B6A00245D9A /* KCContextBlacklistFilterLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +500,7 @@
 				DDFB8EC51794BE2800C7F131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDFB8EC61794BE2800C7F131 /* Build configuration list for PBXNativeTarget "KCLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +509,7 @@
 				DDFB8EC81794BE2800C7F131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

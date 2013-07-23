@@ -7,7 +7,10 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "KCLogger.h"
 
 @interface KCLoggerTests : SenTestCase
-
+{
+    KCLogger *testLogger;
+}
 @end
